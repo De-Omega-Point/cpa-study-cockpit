@@ -1,9 +1,11 @@
 import type { Lesson } from "../types/lesson";
 import type { CaseStudy } from "../types/caseStudy";
+import type { VocabularyTerm } from "../types/vocabulary";
+import type { Question } from "../types/question";
 
 export interface StudyItem {
   id: string;
-  kind: "Lesson" | "Case";
+  kind: "Lesson" | "Case" | "Recall" | "Simulation" | "Practice";
   title: string;
   subject: string;
   text: string;
@@ -19,7 +21,74 @@ type FeaturePipeline = (text: string, options?: { pooling?: string; normalize?: 
 
 let extractorPromise: Promise<FeaturePipeline> | null = null;
 
-export function buildStudyItems(lessons: Lesson[], cases: CaseStudy[]): StudyItem[] {
+const defaultPracticeTopics: StudyItem[] = [
+  {
+    id: "practice-aud-evidence",
+    kind: "Practice",
+    title: "Audit Evidence and Fraud Risk",
+    subject: "AUD",
+    text: "Audit evidence fraud risk journal entries revenue cutoff professional skepticism confirmations inquiry inspection recalculation.",
+    route: "/test-master",
+  },
+  {
+    id: "practice-far-revenue-leases",
+    kind: "Practice",
+    title: "Revenue Recognition and Lease Classification",
+    subject: "FAR",
+    text: "Revenue recognition performance obligations cutoff contract modification lease classification present value purchase option disclosure.",
+    route: "/test-master",
+  },
+  {
+    id: "practice-reg-basis",
+    kind: "Practice",
+    title: "Basis, Gain, and Entity Tax",
+    subject: "REG",
+    text: "Adjusted basis amount realized recognized gain liabilities boot entity formation tax planning documentation.",
+    route: "/test-master",
+  },
+  {
+    id: "practice-isc-controls",
+    kind: "Practice",
+    title: "Access Controls and Change Management",
+    subject: "ISC",
+    text: "Logical access privileged access shared accounts termination deprovisioning change management SOC readiness evidence.",
+    route: "/test-master",
+  },
+];
+
+interface SimulationItem {
+  id: string;
+  subject: string;
+  title: string;
+  skill: string;
+  scenario: string;
+  exhibits: string[];
+  tasks: string[];
+  hints?: string[];
+  rubric?: string[];
+  microLearning?: {
+    plainEnglish: string;
+    examTrap: string;
+    decisionRule: string;
+    memoryHook: string;
+  };
+}
+
+export function buildStudyItems(
+  lessons: Lesson[],
+  cases: CaseStudy[],
+  vocabulary: VocabularyTerm[] = [],
+  simulations: SimulationItem[] = [],
+  questions: Question[] = []
+): StudyItem[] {
+  const practiceTopics = questions.length ? Array.from(
+    questions.reduce((map, question) => {
+      const key = `${question.subject}:${question.topic || question.blueprintMapping?.group || question.type}`;
+      if (!map.has(key)) map.set(key, question);
+      return map;
+    }, new Map<string, Question>()).values()
+  ).slice(0, 80) : [];
+
   return [
     ...lessons.slice(0, 84).map((lesson) => ({
       id: lesson.id,
@@ -37,6 +106,30 @@ export function buildStudyItems(lessons: Lesson[], cases: CaseStudy[]): StudyIte
       text: `${study.title}. ${study.category}. ${study.summary} ${study.rootCause || ""} ${study.failureAnalysis.join(" ")}`,
       route: "/cases",
     })),
+    ...vocabulary.map((term) => ({
+      id: term.id,
+      kind: "Recall" as const,
+      title: term.term,
+      subject: term.subject,
+      text: `${term.term}. ${term.definition} ${term.simpleDefinition} ${term.example} ${term.mnemonic} ${term.microLearning?.whyItMatters || ""} ${term.microLearning?.examTrap || ""}`,
+      route: "/vocabulary",
+    })),
+    ...simulations.map((simulation) => ({
+      id: simulation.id,
+      kind: "Simulation" as const,
+      title: simulation.title,
+      subject: simulation.subject,
+      text: `${simulation.title}. ${simulation.skill}. ${simulation.scenario} ${simulation.exhibits.join(" ")} ${simulation.tasks.join(" ")} ${simulation.microLearning?.plainEnglish || ""} ${simulation.microLearning?.examTrap || ""} ${simulation.microLearning?.decisionRule || ""}`,
+      route: "/simulations",
+    })),
+    ...(practiceTopics.length ? practiceTopics.map((question) => ({
+      id: question.id,
+      kind: "Practice" as const,
+      title: question.topic || question.blueprintMapping?.group || `${question.subject} ${question.type}`,
+      subject: question.subject,
+      text: `${question.subject}. ${question.topic || ""}. ${question.type}. ${question.difficulty}. ${question.question} ${question.explanation} ${question.examTip} ${question.memoryHook}`,
+      route: "/test-master",
+    })) : defaultPracticeTopics),
   ];
 }
 
