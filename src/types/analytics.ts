@@ -1,0 +1,1 @@
+export interface Analytics { lessonsCompleted:number; quizzesCompleted:number; questionsAnswered:number; correctAnswers:number; studyMinutes:number; readiness:number; caseStudiesCompleted:number; vocabularyReviewed:number; mockExamsCompleted:number; }

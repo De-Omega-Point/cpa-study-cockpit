@@ -1,0 +1,44 @@
+{
+  "retrievedOn": "2026-06-09",
+  "sources": [
+    {
+      "name": "AICPA & CIMA CPA Exam Blueprints resource page",
+      "url": "https://www.aicpa-cima.com/resources/download/learn-what-is-tested-on-the-cpa-exam",
+      "updates": [
+        "The AICPA resource page lists Uniform CPA Examination Blueprints effective January 1, 2026.",
+        "Each exam section has five testlets: the first two are MCQ testlets and the last three are task-based simulation testlets.",
+        "AICPA listed section item counts: AUD 39/39 MCQs plus 2/3/2 TBSs; FAR 25/25 MCQs plus 2/3/2 TBSs; REG 36/36 MCQs plus 2/3/3 TBSs; BAR 25/25 MCQs plus 2/3/2 TBSs; ISC 41/41 MCQs plus 1/3/2 TBSs; TCP 34/34 MCQs plus 2/3/2 TBSs.",
+        "Blueprints organize content by Area, Group, Topic, skill level, task statements, and reference material."
+      ]
+    },
+    {
+      "name": "Illinois Board of Examiners Uniform CPA Exam page",
+      "url": "https://www.ilboe.org/uniform-cpa-exam/",
+      "updates": [
+        "Illinois candidates must pass AUD, FAR, REG, and one discipline section: BAR, ISC, or TCP.",
+        "Each section is four hours and must be passed with a minimum score of 75.",
+        "Beginning January 1, 2024, Illinois uses a 30-month window from the score release date of the first passed section."
+      ]
+    },
+    {
+      "name": "Illinois Board of Examiners Education Requirements page",
+      "url": "https://www.ilboe.org/education-requirements/",
+      "updates": [
+        "Illinois requires a degree from a Board-recognized accredited institution and at least 120 semester credit hours to qualify under the education framework.",
+        "Business courses can include business ethics, business law, business communication, information systems, statistics, economics, finance, management, and related business coursework.",
+        "The ILBOE accepts online coursework from Board-recognized accredited institutions when transcripted for credit."
+      ]
+    },
+    {
+      "name": "NASBA CPA Evolution announcement",
+      "url": "https://nasba.org/blog/2024/02/13/cpa-evolution-is-here/",
+      "updates": [
+        "BEC testing ended in December 2023.",
+        "The three discipline sections are BAR, ISC, and TCP.",
+        "BAR emphasizes analysis of financial statements, financial information, data, technical accounting, and reporting.",
+        "ISC emphasizes IT audit/advisory, SOC engagements, and data management.",
+        "TCP emphasizes federal tax compliance, nonroutine transactions, tax planning, and personal financial planning."
+      ]
+    }
+  ]
+}

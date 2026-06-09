@@ -1,0 +1,1 @@
+export function calculateLevel(xp:number){ return Math.floor(xp/1000)+1; } export function rankFromLevel(level:number){ if(level>=50)return "Illinois CPA Master"; if(level>=30)return "CPA Candidate Elite"; if(level>=20)return "Audit Specialist"; if(level>=10)return "Senior Accountant"; if(level>=5)return "Staff Accountant"; return "Candidate"; }

@@ -1,0 +1,1 @@
+import { create } from "zustand"; import { loadData, saveData } from "../utils/localStorage"; type Theme="light"|"dark"; const KEY="cpa-theme"; export const useThemeStore=create<{theme:Theme;toggleTheme:()=>void}>(set=>({theme:loadData<Theme>(KEY)||"light",toggleTheme:()=>set(s=>{const theme=s.theme==="light"?"dark":"light"; saveData(KEY,theme); return {theme};})}));

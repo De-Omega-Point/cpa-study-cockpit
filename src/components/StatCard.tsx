@@ -1,0 +1,1 @@
+export default function StatCard({title,value,subtitle}:{title:string;value:string|number;subtitle?:string}){return <div className="card"><h3 className="text-sm text-slate-500">{title}</h3><div className="mt-3 text-3xl font-bold">{value}</div>{subtitle&&<p className="mt-2 text-sm text-slate-400">{subtitle}</p>}</div>}

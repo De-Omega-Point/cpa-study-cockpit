@@ -1,0 +1,80 @@
+[
+  {
+    "subject": "FAR",
+    "lesson_id": "FAR-001",
+    "title": "Financial Accounting Foundations",
+    "overview": "In this lesson we explore the core concepts of financial accounting, beginning with plain English explanations of assets, liabilities, and equity, then advancing to GAAP terminology. We discuss the relevance of these concepts to preparing financial statements and their importance for CPA exam success. Real‑world application includes how corporations report financial position to stakeholders.",
+    "historical_context": "The modern framework of financial accounting originated in the early 20th century with the establishment of the American Institute of Certified Public Accountants (AICPA) and the creation of GAAP. Significant milestones include the SEC’s formation in 1934, the publication of the FASB Statements, and recent updates such as ASC 606 for revenue recognition. These changes directly affect the CPA exam content.",
+    "five_w_h": {
+      "what": "Financial accounting records, summarizes, and reports the financial transactions of a business.",
+      "why": "Provides transparent information for investors, creditors, and regulators, ensuring accountability and informed decision‑making.",
+      "who": "Accountants, auditors, CFOs, investors, and regulatory bodies.",
+      "when": "Continuously throughout the fiscal period; formal reporting occurs at period‑end.",
+      "where": "Corporate finance departments, public accounting firms, and regulatory filings.",
+      "how": "Through a systematic process of journalizing transactions, posting to ledgers, preparing trial balances, and issuing financial statements."
+    },
+    "terminology": [
+      {
+        "term": "Asset",
+        "definition": "A resource controlled by an entity that is expected to provide future economic benefits.",
+        "plain_english": "Anything a company owns that can help it make money later.",
+        "mnemonic": "A for Awesome thing you own",
+        "example": "Cash, inventory, equipment",
+        "related_concepts": "Liability, Equity",
+        "exam_relevance": "Commonly tested in multiple‑choice items on classification and valuation."
+      }
+    ],
+    "worked_examples": {
+      "basic": "Compute the total assets for a sole‑proprietorship given cash $5,000, inventory $12,000, and equipment $20,000.",
+      "intermediate": "Prepare a simple balance sheet after recording a loan payable and purchase of equipment on credit.",
+      "advanced": "Adjust a trial balance for depreciation expense, accrued expenses, and prepaid rent, then produce the final financial statements.",
+      "cpa_exam": "Multiple‑choice question: Which of the following adjustments will increase both assets and equity?",
+      "real_business": "Analyze how a manufacturing firm records raw material purchases, work‑in‑process, and finished goods inventory."
+    },
+    "critical_thinking_lab": [
+      "If a company reclassifies an expense as an asset, how does that affect the balance sheet and income statement?",
+      "Evaluate the impact of aggressive revenue recognition on financial ratios used by lenders.",
+      "Choose the most appropriate accounting treatment for a lease classified under ASC 842.",
+      "Explain why consistency in accounting policies is essential for comparability across periods.",
+      "Assess the ethical considerations of earnings management in quarterly reporting."
+    ],
+    "scenario_analysis": "A mid‑size tech startup receives a $2M convertible note. Decide how to record the convertible note and its conversion features, considering GAAP guidance and future dilution implications.",
+    "tows_analysis": {
+      "strengths": "Strong grasp of core concepts, clear documentation.",
+      "weaknesses": "Limited exposure to complex transactions.",
+      "opportunities": "Apply knowledge to industry‑specific reporting (e.g., SaaS revenue models).",
+      "threats": "Rapid changes in accounting standards could render knowledge outdated.",
+      "exam_relevance": "TOWS mapping helps candidates prioritize study topics based on exam weightings."
+    },
+    "common_mistakes": {
+      "beginner": "Confusing assets with expenses.",
+      "intermediate": "Failing to adjust for accruals at period‑end.",
+      "cpa_exam": "Selecting the wrong classification for lease liabilities.",
+      "real_world": "Overlooking contingent liabilities in footnotes."
+    },
+    "reinforcement_learning": {
+      "level_1": "Recall the definition of an asset.",
+      "level_2": "Apply asset classification to a set of transactions.",
+      "level_3": "Analyze the effect of asset revaluation on equity.",
+      "level_4": "Make professional judgement on fair value measurement for investment securities."
+    },
+    "reflection": [
+      "Which aspect of financial accounting do you find most challenging and why?",
+      "How would you explain the importance of the matching principle to a non‑accountant?",
+      "What professional judgement did you exercise in the scenario analysis?",
+      "Identify a real‑world case where misclassification of assets led to regulatory scrutiny.",
+      "How does continuous learning improve your competency in financial reporting?"
+    ],
+    "quiz": [
+      {
+        "question": "Which of the following is an example of a current asset?",
+        "type": "MCQ",
+        "options": ["Land", "Accounts Receivable", "Equipment", "Goodwill"],
+        "answer": "Accounts Receivable",
+        "explanation": "Current assets are expected to be converted to cash within one year.",
+        "exam_tip": "Focus on liquidity when identifying current assets.",
+        "memory_hook": "AR = A **R**eceivable quickly."
+      }
+    ]
+  }
+]

@@ -1,0 +1,4 @@
+import { create } from "zustand"; import { loadData, saveData } from "../utils/localStorage"; import { calculateLevel } from "../utils/xpEngine"; import type { UserProfile } from "../types/user";
+const KEY="cpa-user-profile"; const defaultUser:UserProfile={name:"",targetDiscipline:"TCP",targetExamDate:"",studyHoursWeekly:10,xp:0,level:1,streak:0,createdAt:new Date().toISOString()};
+interface UserStore{profile:UserProfile; updateProfile:(u:Partial<UserProfile>)=>void; addXP:(n:number)=>void; incrementStreak:()=>void;}
+export const useUserStore=create<UserStore>((set)=>({profile:loadData<UserProfile>(KEY)||defaultUser, updateProfile:(u)=>set(s=>{const p={...s.profile,...u}; saveData(KEY,p); return {profile:p};}), addXP:(n)=>set(s=>{const xp=s.profile.xp+n; const p={...s.profile,xp,level:calculateLevel(xp)}; saveData(KEY,p); return {profile:p};}), incrementStreak:()=>set(s=>{const p={...s.profile,streak:s.profile.streak+1}; saveData(KEY,p); return {profile:p};})}));
