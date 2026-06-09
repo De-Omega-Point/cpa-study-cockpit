@@ -474,6 +474,95 @@ li {
   color: var(--muted);
 }
 
+.landing-guide-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 900px) {
+  .landing-guide-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.landing-guide-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  min-height: 190px;
+  padding: 1rem;
+}
+
+.landing-guide-card > span {
+  align-items: center;
+  background: var(--primary-soft);
+  border-radius: 999px;
+  color: var(--primary-strong);
+  display: inline-flex;
+  font-weight: 900;
+  height: 38px;
+  justify-content: center;
+  margin-bottom: .9rem;
+  width: 38px;
+}
+
+.landing-guide-card h3 {
+  font-size: 1.15rem;
+  font-weight: 880;
+  line-height: 1.2;
+  margin: 0 0 .55rem;
+}
+
+.landing-guide-card p {
+  color: var(--muted);
+  line-height: 1.62;
+}
+
+.landing-steps-list {
+  counter-reset: app-steps;
+  display: grid;
+  gap: .85rem;
+  grid-template-columns: 1fr;
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+}
+
+@media (min-width: 900px) {
+  .landing-steps-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.landing-steps-list li {
+  align-items: flex-start;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--muted);
+  counter-increment: app-steps;
+  display: flex;
+  gap: .85rem;
+  line-height: 1.55;
+  max-width: none;
+  padding: .95rem;
+}
+
+.landing-steps-list li::before {
+  align-items: center;
+  background: var(--accent);
+  border-radius: 999px;
+  color: #fff;
+  content: counter(app-steps);
+  display: inline-flex;
+  flex: 0 0 34px;
+  font-weight: 900;
+  height: 34px;
+  justify-content: center;
+}
+
 .landing-quickstart {
   border-top: 1px solid var(--border);
 }
