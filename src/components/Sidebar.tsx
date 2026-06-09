@@ -7,6 +7,7 @@ import {
   ClipboardCheck,
   FileQuestion,
   GraduationCap,
+  Home,
   LayoutDashboard,
   Route,
   ShieldCheck,
@@ -19,6 +20,7 @@ const groups = [
   {
     label: "Study Flow",
     links: [
+      ["/", "Welcome", Home],
       ["/dashboard", "Cockpit", LayoutDashboard],
       ["/profile", "Candidate Setup", User],
       ["/academy", "Guided Lessons", BookOpen],

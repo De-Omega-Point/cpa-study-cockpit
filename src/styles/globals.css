@@ -147,13 +147,58 @@ li {
   min-height: 100vh;
 }
 
+.landing-nav {
+  align-items: center;
+  background: rgba(255, 253, 247, .86);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  justify-content: space-between;
+  left: 50%;
+  max-width: min(1120px, calc(100vw - 2rem));
+  padding: .65rem .8rem;
+  position: fixed;
+  top: 1rem;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 30;
+}
+
+.landing-nav > a {
+  color: var(--primary-strong);
+  font-weight: 920;
+  padding: .35rem .6rem;
+}
+
+.landing-nav div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+}
+
+.landing-nav div a {
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: .92rem;
+  font-weight: 850;
+  padding: .45rem .75rem;
+}
+
+.landing-nav div a:hover {
+  background: var(--primary-soft);
+  color: var(--primary-strong);
+}
+
 .landing-hero {
   align-items: center;
   display: grid;
   isolation: isolate;
   min-height: 86vh;
   overflow: hidden;
-  padding: clamp(1.25rem, 3vw, 3rem);
+  padding: clamp(5.5rem, 8vw, 7rem) clamp(1.25rem, 3vw, 3rem) clamp(1.25rem, 3vw, 3rem);
   position: relative;
 }
 

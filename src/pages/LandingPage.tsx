@@ -64,6 +64,14 @@ export default function LandingPage() {
 
   return (
     <main className="landing-shell">
+      <nav className="landing-nav" aria-label="Landing navigation">
+        <Link to="/">CPA Study Cockpit</Link>
+        <div>
+          <Link to="/dashboard">Cockpit</Link>
+          <Link to="/academy">Lessons</Link>
+          <Link to="/vocabulary">Recall Lab</Link>
+        </div>
+      </nav>
       <section className="landing-hero" aria-labelledby="landing-title">
         <div className="cockpit-scene" aria-hidden="true">
           <div className="cockpit-grid" />

@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import { BookOpen, BrainCircuit, FileQuestion, House, ShieldCheck, Target } from "lucide-react";
 
 const links = [
-  ["/dashboard", "Cockpit", House],
+  ["/", "Start", House],
   ["/academy", "Learn", BookOpen],
   ["/ai-coach", "AI", BrainCircuit],
   ["/test-master", "Practice", Target],
