@@ -1,0 +1,1 @@
+import{j as t}from"./index-CWpD_TmX.js";function r({title:e,value:a,subtitle:s}){return t.jsxs("div",{className:"card",children:[t.jsx("h3",{className:"text-sm text-slate-500",children:e}),t.jsx("div",{className:"mt-3 text-3xl font-bold",children:a}),s&&t.jsx("p",{className:"mt-2 text-sm text-slate-400",children:s})]})}export{r as S};
