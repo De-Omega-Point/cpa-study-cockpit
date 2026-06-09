@@ -6,11 +6,17 @@ export interface VocabularyTerm {
   simpleDefinition: string;
   example: string;
   mnemonic: string;
+  microLearning?: {
+    whyItMatters: string;
+    examTrap: string;
+    reinforcementPrompt: string;
+  };
   relatedTerms: string[];
   relatedConcepts?: string[];
   difficulty: "easy" | "medium" | "hard";
   quizQuestion?: {
     question: string;
+    options?: string[];
     answer: string;
     explanation: string;
   };
