@@ -1,3 +1,3 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-export default defineConfig({ plugins:[react()], base:"/illinois-cpa-mastery-enterprise-v4/" });
+export default defineConfig({ plugins:[react()], base:"/cpa-study-cockpit/" });
