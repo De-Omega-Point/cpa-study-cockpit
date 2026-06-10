@@ -1,0 +1,51 @@
+import{c as n,j as s,N as y}from"./index-CFTXr59K.js";import{H as x,B as b,a as j,T as v,F as f,C as g,S as C,R as M,c as l,s as d,l as u,u as w,M as N}from"./MobileNav-B5E4e1Qn.js";/**
+ * @license lucide-react v0.525.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const S=[["path",{d:"M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z",key:"l5xja"}],["path",{d:"M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z",key:"ep3f8r"}],["path",{d:"M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4",key:"1p4c4q"}],["path",{d:"M17.599 6.5a3 3 0 0 0 .399-1.375",key:"tmeiqw"}],["path",{d:"M6.003 5.125A3 3 0 0 0 6.401 6.5",key:"105sqy"}],["path",{d:"M3.477 10.896a4 4 0 0 1 .585-.396",key:"ql3yin"}],["path",{d:"M19.938 10.5a4 4 0 0 1 .585.396",key:"1qfode"}],["path",{d:"M6 18a4 4 0 0 1-1.967-.516",key:"2e4loj"}],["path",{d:"M19.967 17.484A4 4 0 0 1 18 18",key:"159ez6"}]],A=n("brain",S);/**
+ * @license lucide-react v0.525.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const q=[["path",{d:"M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16",key:"jecpp"}],["rect",{width:"20",height:"14",x:"2",y:"6",rx:"2",key:"i6l2r4"}]],z=n("briefcase",q);/**
+ * @license lucide-react v0.525.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const _=[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["path",{d:"m9 12 2 2 4-4",key:"dzmm74"}]],oe=n("circle-check",_);/**
+ * @license lucide-react v0.525.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const L=[["path",{d:"M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z",key:"j76jl0"}],["path",{d:"M22 10v6",key:"1lu8f3"}],["path",{d:"M6 12.5V16a6 3 0 0 0 12 0v-3.5",key:"1r8lef"}]],R=n("graduation-cap",L);/**
+ * @license lucide-react v0.525.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const $=[["rect",{width:"7",height:"9",x:"3",y:"3",rx:"1",key:"10lvy0"}],["rect",{width:"7",height:"5",x:"14",y:"3",rx:"1",key:"16une8"}],["rect",{width:"7",height:"9",x:"14",y:"12",rx:"1",key:"1hutg5"}],["rect",{width:"7",height:"5",x:"3",y:"16",rx:"1",key:"ldoo1y"}]],D=n("layout-dashboard",$);/**
+ * @license lucide-react v0.525.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const P=[["path",{d:"M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z",key:"a7tn18"}]],E=n("moon",P);/**
+ * @license lucide-react v0.525.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const T=[["path",{d:"m21 21-4.34-4.34",key:"14j7rj"}],["circle",{cx:"11",cy:"11",r:"8",key:"4ej97u"}]],B=n("search",T);/**
+ * @license lucide-react v0.525.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const Q=[["path",{d:"M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z",key:"4pj2yx"}],["path",{d:"M20 3v4",key:"1olli1"}],["path",{d:"M22 5h-4",key:"1gvqau"}],["path",{d:"M4 17v2",key:"vumght"}],["path",{d:"M5 18H3",key:"zchphs"}]],H=n("sparkles",Q);/**
+ * @license lucide-react v0.525.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const I=[["circle",{cx:"12",cy:"12",r:"4",key:"4exip2"}],["path",{d:"M12 2v2",key:"tus03m"}],["path",{d:"M12 20v2",key:"1lh1kg"}],["path",{d:"m4.93 4.93 1.41 1.41",key:"149t6j"}],["path",{d:"m17.66 17.66 1.41 1.41",key:"ptbguv"}],["path",{d:"M2 12h2",key:"1t8f8n"}],["path",{d:"M20 12h2",key:"1q8mjw"}],["path",{d:"m6.34 17.66-1.41 1.41",key:"1m8zz5"}],["path",{d:"m19.07 4.93-1.41 1.41",key:"1shlcs"}]],F=n("sun",I);/**
+ * @license lucide-react v0.525.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const G=[["path",{d:"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2",key:"975kel"}],["circle",{cx:"12",cy:"7",r:"4",key:"17ys0d"}]],O=n("user",G),U=[{label:"Study Flow",links:[["/","Welcome",x],["/dashboard","Cockpit",D],["/profile","Candidate Setup",O],["/academy","Guided Lessons",b],["/deep-dive","Deep Dive",R],["/ai-coach","AI Coach",j],["/vocabulary","Recall Lab",A]]},{label:"Practice",links:[["/test-master","Question Drill",v],["/practice-exam","Practice Exam",f],["/simulations","Simulation Lab",g],["/cases","Case Judgment",z]]},{label:"Readiness",links:[["/war-room","War Room",C],["/tracker","Illinois License",M]]}];function V(){return s.jsxs("aside",{className:"app-sidebar",children:[s.jsxs("div",{className:"brand-panel",children:[s.jsx("span",{className:"brand-mark",children:s.jsx(H,{size:21})}),s.jsxs("div",{children:[s.jsx("h1",{children:"CPA Study Cockpit"}),s.jsx("p",{children:"De-Omega-Point Project"})]})]}),s.jsx("nav",{className:"sidebar-nav","aria-label":"Main navigation",children:U.map(t=>s.jsxs("section",{className:"nav-section",children:[s.jsx("h2",{children:t.label}),s.jsx("div",{className:"space-y-1",children:t.links.map(([e,a,o])=>s.jsxs(y,{to:e,className:({isActive:c})=>`sidebar-link ${c?"sidebar-link-active":""}`,children:[s.jsx(o,{size:19}),s.jsx("span",{children:a})]},e))})]},t.label))})]})}const i="cpa-theme",m=l(t=>({theme:u(i)||"light",toggleTheme:()=>t(e=>{const a=e.theme==="light"?"dark":"light";return d(i,a),{theme:a}})})),h="cpa-analytics",W={lessonsCompleted:0,quizzesCompleted:0,questionsAnswered:0,correctAnswers:0,studyMinutes:0,readiness:0,caseStudiesCompleted:0,vocabularyReviewed:0,mockExamsCompleted:0};function r(t){const{completeLesson:e,completeQuiz:a,answerQuestion:o,addStudyTime:c,reviewVocabulary:Y,completeCaseStudy:X,completeMockExam:ee,setReadiness:se,...k}=t;d(h,k)}const Z=l(t=>({...W,...u(h)||{},completeLesson:()=>t(e=>{const a={...e,lessonsCompleted:e.lessonsCompleted+1};return r(a),a}),completeQuiz:()=>t(e=>{const a={...e,quizzesCompleted:e.quizzesCompleted+1};return r(a),a}),answerQuestion:e=>t(a=>{const o={...a,questionsAnswered:a.questionsAnswered+1,correctAnswers:a.correctAnswers+(e?1:0)};return r(o),o}),addStudyTime:e=>t(a=>{const o={...a,studyMinutes:a.studyMinutes+e};return r(o),o}),reviewVocabulary:()=>t(e=>{const a={...e,vocabularyReviewed:e.vocabularyReviewed+1};return r(a),a}),completeCaseStudy:()=>t(e=>{const a={...e,caseStudiesCompleted:e.caseStudiesCompleted+1};return r(a),a}),completeMockExam:()=>t(e=>{const a={...e,mockExamsCompleted:e.mockExamsCompleted+1};return r(a),a}),setReadiness:e=>t(a=>{const o={...a,readiness:e};return r(o),o})})),ne=[{id:"orient",label:"Orient",route:"/",focus:"Set the mission, target discipline, and daily workload."},{id:"learn",label:"Learn",route:"/academy",focus:"Study one mastery module at a time."},{id:"recall",label:"Recall",route:"/vocabulary",focus:"Build vocabulary and memory hooks."},{id:"practice",label:"Practice",route:"/test-master",focus:"Answer mixed questions with explanations."},{id:"judge",label:"Judge",route:"/cases",focus:"Apply professional judgment to messy cases."},{id:"simulate",label:"Simulate",route:"/war-room",focus:"Run mock exams and diagnose weak areas."},{id:"license",label:"License",route:"/tracker",focus:"Track Illinois requirements and documents."}];function p(t){return t.questionsAnswered?Math.round(t.correctAnswers/t.questionsAnswered*100):0}function J(t,e){return e.lessonsCompleted<12?"FAR":e.lessonsCompleted<24?"AUD":e.lessonsCompleted<36?"REG":t.targetDiscipline||"TCP"}function re(t,e){const a=p(e),o=J(t,e);return e.lessonsCompleted<3?{label:`Start ${o} foundations`,route:"/academy",reason:"Begin with concept clarity before practice volume."}:e.vocabularyReviewed<e.lessonsCompleted*5?{label:"Reinforce vocabulary",route:"/vocabulary",reason:"Memory hooks make later questions easier to decode."}:e.questionsAnswered<e.lessonsCompleted*8||a<70?{label:"Run guided practice",route:"/test-master",reason:"Practice turns reading into exam behavior."}:e.caseStudiesCompleted<Math.max(1,Math.floor(e.lessonsCompleted/4))?{label:"Work a judgment case",route:"/cases",reason:"Cases train professional judgment and explanation."}:{label:"Check readiness",route:"/war-room",reason:"Use mock exams to decide the next weak-area cycle."}}function K(){const{profile:t}=w(),e=Z(),{theme:a,toggleTheme:o}=m(),c=p(e);return s.jsxs("header",{className:"app-header",children:[s.jsxs("div",{className:"header-search",role:"search",children:[s.jsx(B,{size:18}),s.jsx("span",{children:"CPA Study Cockpit / De-Omega-Point Project / Search lessons, terms, questions..."})]}),s.jsxs("div",{className:"header-status",children:[s.jsxs("div",{className:"status-pill",children:[s.jsxs("b",{children:["Level ",t.level]}),s.jsx("span",{children:t.targetDiscipline})]}),s.jsxs("div",{className:"status-pill",children:[s.jsxs("b",{children:[c,"%"]}),s.jsx("span",{children:"Accuracy"})]}),s.jsxs("button",{onClick:o,className:"icon-button","aria-label":"Toggle theme",children:[a==="dark"?s.jsx(F,{size:18}):s.jsx(E,{size:18}),s.jsx("span",{children:a==="dark"?"Light":"Dark"})]})]})]})}function ce({children:t}){const{theme:e}=m();return s.jsxs("div",{className:`min-h-screen ${e==="dark"?"dark dark-shell":"bg-slate-100"}`,children:[s.jsx("a",{href:"#main-content",className:"skip-link",children:"Skip to main content"}),s.jsxs("div",{className:"flex min-h-screen",children:[s.jsx(V,{}),s.jsxs("div",{className:"flex min-w-0 flex-1 flex-col",children:[s.jsx(K,{}),s.jsx("main",{id:"main-content",className:"flex-1 overflow-auto",tabIndex:-1,children:t}),s.jsx(N,{})]})]})]})}export{A as B,oe as C,R as G,ce as M,H as S,J as a,re as b,B as c,p as g,ne as l,Z as u};
