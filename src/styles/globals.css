@@ -145,6 +145,13 @@ li {
   background: var(--bg);
   color: var(--text);
   min-height: 100vh;
+  padding-bottom: 5.75rem;
+}
+
+@media (min-width: 768px) {
+  .landing-shell {
+    padding-bottom: 0;
+  }
 }
 
 .landing-nav {
@@ -941,24 +948,68 @@ li {
   min-height: auto;
 }
 
+.mobile-bottom-nav {
+  align-items: stretch;
+  background: #fffdf7;
+  border-top: 2px solid #8f7b63;
+  bottom: 0;
+  box-shadow: 0 -14px 40px rgba(36, 26, 18, .24);
+  display: flex;
+  gap: .25rem;
+  justify-content: space-around;
+  left: 0;
+  padding: .45rem .5rem calc(.45rem + env(safe-area-inset-bottom));
+  position: fixed;
+  right: 0;
+  z-index: 1000;
+}
+
+@media (min-width: 768px) {
+  .mobile-bottom-nav {
+    display: none;
+  }
+}
+
 .mobile-link {
   align-items: center;
   border: 1.5px solid transparent;
   border-radius: var(--radius-sm);
-  color: var(--muted);
+  color: #241a12;
   display: flex;
   flex: 1;
   flex-direction: column;
-  font-weight: 760;
-  gap: .2rem;
-  min-height: 56px;
+  font-size: .76rem;
+  font-weight: 900;
+  gap: .25rem;
+  justify-content: center;
+  line-height: 1.1;
+  min-height: 60px;
+  min-width: 0;
   padding: .45rem .25rem;
+  text-align: center;
+}
+
+.mobile-link svg {
+  color: #2f4f27;
+  flex: 0 0 auto;
+}
+
+.mobile-link span {
+  color: inherit;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
 }
 
 .mobile-link-active {
-  background: var(--primary-soft);
-  border-color: var(--primary);
-  color: var(--primary-strong);
+  background: #2f4f27;
+  border-color: #2f4f27;
+  color: #ffffff;
+}
+
+.mobile-link-active svg {
+  color: #ffffff;
 }
 
 .icon-button {
@@ -1443,6 +1494,30 @@ label {
 .dark .app-header {
   background: rgba(2, 6, 23, .92);
   border-color: var(--border);
+}
+
+.dark .mobile-bottom-nav {
+  background: #fffdf7;
+  border-color: #b29b7f;
+  box-shadow: 0 -14px 40px rgba(0, 0, 0, .48);
+}
+
+.dark .mobile-link {
+  color: #241a12;
+}
+
+.dark .mobile-link svg {
+  color: #2f4f27;
+}
+
+.dark .mobile-link-active {
+  background: #2f4f27;
+  border-color: #d9efb4;
+  color: #ffffff;
+}
+
+.dark .mobile-link-active svg {
+  color: #ffffff;
 }
 
 .dark .brand-panel {

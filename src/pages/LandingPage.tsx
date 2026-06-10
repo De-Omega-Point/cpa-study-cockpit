@@ -12,6 +12,7 @@ import {
   ShieldCheck,
   Target,
 } from "lucide-react";
+import MobileNav from "../components/MobileNav";
 import { useUserStore } from "../store/userStore";
 
 const flowSteps = [
@@ -265,6 +266,7 @@ export default function LandingPage() {
           <Link to="/tracker"><Route size={22} /> Check Illinois progress</Link>
         </div>
       </section>
+      <MobileNav />
     </main>
   );
 }
